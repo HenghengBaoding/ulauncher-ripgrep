@@ -1,0 +1,26 @@
+{
+  "required_api_version": "2",
+  "name": "Ripgrep Search",
+  "description": "Search files quickly using ripgrep",
+  "developer_name": "Henry",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "rg",
+      "type": "keyword",
+      "name": "Ripgrep Search",
+      "description": "Search files using ripgrep",
+      "default_value": "rg"
+    },
+    {
+      "id": "search_path",
+      "type": "text",
+      "name": "Search path",
+      "description": "Directory to search (default: ~)",
+      "default_value": "~"
+    }
+  ]
+}
