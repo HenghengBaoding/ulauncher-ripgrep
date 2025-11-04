@@ -1,7 +1,7 @@
 {
   "required_api_version": "2",
   "name": "Ripgrep Search",
-  "description": "Search files quickly using ripgrep",
+  "description": "Search files content quickly using ripgrep",
   "developer_name": "Henry",
   "icon": "images/icon.png",
   "options": {
@@ -19,7 +19,7 @@
       "id": "search_path",
       "type": "text",
       "name": "Search path",
-      "description": "Directory to search (default: ~)",
+      "description": "Support multiple search paths separated by spaces.Paths containing spaces can be enclosed in double quotes (\"\") or single quotes ('').",
       "default_value": "~"
     }
   ]
